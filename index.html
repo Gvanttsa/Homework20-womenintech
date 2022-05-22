@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-wrapper">
+            <a href="index.html" class="logo"> Web Development</a>
+    
+            <nav class="navbar" id="navbarlinks">
+                <ul class="ul-list">
+                    <li class="li-list">
+                        <a href="index.html">Home</a>
+                    </li>
+    
+                    <li class="li-list">
+                        <a href="#">Contact</a>
+                    </li>
+    
+                    <li class="li-list">
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="toggle-button" id="toggleBurger">
+                <div class="burger-div burger1" id="burger1"></div>
+                <div class="burger-div burger-middle" id="burger2"></div>
+                <div class="burger-div burger3" id="burger3"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="section1">
+        <div class="wrapper-body">
+            <div class="accordeon">
+                <h2 class="title">Languages</h2>
+                <div class="contaier">
+                    <h3 class="accordeon-title">What is HTML?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </h3>
+                    <p class="paragraph">HTML, or HyperText Markup Language, allows web users to create and structure sections, paragraphs, and links using elements, tags, and attributes. However, it’s worth noting that HTML is not considered a programming language as it can’t create dynamic functionality.</p>
+                </div>
+    
+                <div class="contaier">
+                    <h3 class="accordeon-title">What is css?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </h3>
+                    <p class="paragraph">CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is with a simple syntax example and also covers some key terms about the language.</p>
+                </div>
+    
+                <div class="contaier">
+                    <h3 class="accordeon-title">What is JavaScript?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </h3>
+                    <p class="paragraph">JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
